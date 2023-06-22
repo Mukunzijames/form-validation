@@ -1,0 +1,42 @@
+body{
+    margin: 100px;
+
+}
+
+input[type=text], select{
+width: 90%;
+padding: 20px 20px;
+border: 1px solid grey;
+margin: 8px 50px;
+display: block;
+box-sizing: border-box;
+border-radius: 20px;
+cursor: pointer;
+
+}
+label{
+    margin: 8px 50px ;
+}
+option {
+    border-radius: 20px;
+}
+input[type=submit]{
+    width: 90%;
+    padding: 20px 20px;
+    border: 1px solid grey;
+    margin: 8px 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: grey;
+}
+input[type=submit]:hover{
+background-color: blue;
+
+}
+form {
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: aqua;
+}
